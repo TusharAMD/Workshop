@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Read Page</h1>
+
+<form class ="container" method = "post" action = "/readdisplay" >
+    <div class = "form-group">
+        <input class = "form-control" name = "Name" placeholder = "Please Enter Name Of Student to be Search">
+    </div>
+    
+    <button class= "waves-effect waves-light btn blue-grey darken-4">Search</button>
+</form>
+
+{% endblock %}

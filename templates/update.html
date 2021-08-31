@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Update Page</h1>
+
+<form class ="container" method = "post" action = "/updatedisplay" >
+    <div class = "form-group">
+        <input class = "form-control" name = "Name" placeholder = "Please Enter Name Of Student">
+    </div>
+    <div class = "form-group">
+        <input class = "form-control" name = "Physics" placeholder = "Please Enter Marks in Physics">
+    </div>
+    <div class = "form-group">
+        <input class = "form-control" name = "Chemistry" placeholder = "Please Enter Marks in Chemistry">
+    </div>
+    <div class = "form-group">
+        <input class = "form-control" name = "Maths" placeholder = "Please Enter Marks in Maths">
+    </div>
+    
+    
+    <button class= "waves-effect waves-light btn blue-grey darken-4">Update</button>
+</form>
+
+{% endblock %}

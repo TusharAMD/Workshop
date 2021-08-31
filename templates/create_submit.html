@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Create Page</h1>
+<!--{{result}} -->
+<table>
+<tr>
+    <td>Name</td>
+    <td>Roll</td>
+    <td>Class</td>
+    <td>Physics</td>
+    <td>Chemistry</td>
+    <td>Maths</td>
+    <td>Total</td>
+    <td>Percentage</td>
+</tr>
+<tr>
+    <td>{{result.Name}}</td>
+    <td>{{result.Roll}}</td>
+    <td>{{result.Class}}</td>
+    <td>{{result.Physics}}</td>
+    <td>{{result.Chemistry}}</td>
+    <td>{{result.Maths}}</td>
+    <td>{{result.Total}}</td>
+    <td>{{result.Percentage}}</td>
+</tr>
+<table>
+
+{% endblock %}
